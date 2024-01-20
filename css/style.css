@@ -1,16 +1,22 @@
+/*Remove margins for other nav bars*/
 body {
     margin: 0px;
+    background-color:HSL(0, 0%, 70%);
+
 }
 
+/*Cut margins*/ 
 main {
     margin-left: 20px;
     margin-right: 20px;
 }
 
+/*Center titles*/
 h1 {
     text-align: center;
 }
 
+/*Default nav bar*/
 .navbar ul{
     list-style-type: none;
     background-color: hsl(0, 0%, 25%);
@@ -19,6 +25,7 @@ h1 {
     overflow: hidden;
 }
 
+/*Text on nav bar*/
 .navbar a {
     color:white;
     text-decoration: none;
@@ -27,10 +34,12 @@ h1 {
     text-align: center;
 }
 
+/*Change color on hover*/
 .navbar a:hover{
     background-color: hsl(0, 0%, 10%);
 }
 
+/*Make bar go horizontal*/
 .navbar li {
     float: left;
 }
