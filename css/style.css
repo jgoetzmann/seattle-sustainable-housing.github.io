@@ -1,14 +1,21 @@
 /*Remove margins for other nav bars*/
+
 body {
     margin: 0px;
     background-color:HSL(0, 0%, 70%);
-
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 /*Cut margins*/ 
 main {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+footer {
+    margin-left: 0px;
+    margin-left: 0px;
+    text-align: center;
 }
 
 /*Center titles*/
