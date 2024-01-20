@@ -1,5 +1,4 @@
 /*Remove margins for other nav bars*/
-
 body {
     margin: 0px;
     background-color:HSL(0, 0%, 70%);
@@ -12,6 +11,7 @@ main {
     margin-right: 20px;
 }
 
+/*Footer so text is centered without margins*/
 footer {
     margin-left: 0px;
     margin-left: 0px;
